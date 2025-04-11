@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="ru">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,7 +20,7 @@
       text-align: center;
     }
     header h1 {
-      font-size: 2.8rem;
+      margin-bottom: 1.5rem;
     }
     .container {
       max-width: 1000px;
@@ -54,76 +55,72 @@
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    table {
+    .video-header {
+      margin-bottom: 2rem;
+    }
+    .video-header video {
       width: 100%;
-      border-collapse: collapse;
-      margin-top: 1rem;
-    }
-    table, th, td {
-      border: 1px solid #ccc;
-    }
-    th, td {
-      padding: 0.75rem;
-      text-align: left;
-    }
-    th {
-      background-color: #f0f0f0;
+      max-width: 800px;
+      height: auto;
+      border: 2px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
   </style>
 </head>
 <body>
   <header>
+    <div class="video-header">
+      <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Ваш браузер не поддерживает воспроизведение видео.
+      </video>
+    </div>
     <h1>Услуги по моделированию и цифровым двойникам</h1>
     <p>Владимир Исаев | Производственные, логистические и горные процессы</p>
   </header>
   <div class="container">
     <section class="photo">
-      <img src="photo.jpg" alt="Владимир Исаев" />
-    </section><section class="about">
-  <h2>Обо мне</h2>
-  <p>Я — Исаев Владимир. Разрабатываю математические модели и цифровые двойники производств, логистических, складских, а также процессов горных работ с 2017 года.</p>
-</section>
+      <img src="Photo.jpg" alt="Владимир Исаев" />
+    </section>
 
-<section class="services">
-  <h2>Услуги</h2>
-  <ul>
-    <li>Моделирование процессов в Plant Simulation</li>
-    <li>Создание цифровых двойников</li>
-    <li>Оптимизация производственных и логистических схем</li>
-    <li>Анализ KPI и визуализация узких мест</li>
-    <li>Консалтинг и обучение</li>
-  </ul>
-</section>
+    <section class="about">
+      <h2>Обо мне</h2>
+      <p>Привет! Меня зовут Владимир Исаев, я разрабатываю математические модели и цифровые двойники производств, логистических, складских, а также процессов горных работ с 2017 года. Моделирование выполняю в специализированой среде Siemens Plant Simulation. Оптимизация - мой конек! Обращайтесь, контакты ниже. </p>
+    </section>
 
-<section class="projects">
-  <h2>Примеры проектов</h2>
-  <table>
-    <tr>
-      <th>Проект</th>
-      <th>Описание</th>
-      <th>Результат</th>
-    </tr>
-    <tr>
-      <td>Проект A</td>
-      <td>Моделирование логистической цепочки на складе</td>
-      <td>Оптимизация путей доставки, сокращение времени на 18%</td>
-    </tr>
-    <tr>
-      <td>Проект B</td>
-      <td>Цифровой двойник производства горных работ</td>
-      <td>Выявлены узкие места, улучшена производительность на 12%</td>
-    </tr>
-  </table>
-</section>
+    <section class="services">
+      <h2>Услуги</h2>
+      <ul>
+        <li>Моделирование процессов в Plant Simulation</li>
+        <li>Создание цифровых двойников</li>
+        <li>Оптимизация производственных и логистических схем</li>
+        <li>Анализ KPI и визуализация узких мест</li>
+        <li>Консалтинг и обучение</li>
+      </ul>
+    </section>
 
-<section class="contact">
-  <h2>Контакты</h2>
-  <p>Почта: <a href="mailto:Vladimir_isaev_1988@mail.ru">Vladimir_isaev_1988@mail.ru</a></p>
-  <p>Telegram: <a href="https://t.me/Isaev_Vladimir_1988" target="_blank">@Isaev_Vladimir_1988</a></p>
-</section>
-
-  </div>  <footer>
-    <p>&copy; 2025 | Владимир Исаев | Все права защищены</p>
-  </footer>
-</body>
-</html>
+    <section class="projects">
+      <h2>Примеры проектов</h2>
+      <table>
+        <tr>
+          <th>Год</th>
+          <th>Город</th>
+          <th>Направление оптимизации</th>
+          <th>Экономия, Евро</th>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Крива (Молдова)</td>
+          <td>Транспортная (сочетание и колличество техники)</td>
+          <td>149.000</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Рига (Латвия)</td>
+          <td>Транспортная (сравнение оборудования и колличество техники)</td>
+          <td>361.000</td>
+        </tr>
+         <tr>
+          <td>2019</td>
+          <td>Дебар (Македония)</td>
+          <td>Транспортная (сравнение технологий и колличество техники)</td>
